@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab final</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+
+<body>
+    <div class="bank-details-container">
+        <!-- card details -->
+        <div>
+            <div class="card-bg-img">
+                <img src="./images/card-bg.avif" alt="">
+            </div>
+            <div class="card-details">
+                <h2>PUB BANK</h2>
+                <div class="card-details-person">
+                    <p>900 **** **** 1234</p>
+                    <h3>John Doe</h3>
+                    <p>$ <span id="balance-amount">1000.00</span></p>
+                </div>
+            </div>
+        </div>
+
+        <!-- deposit and withdraw section -->
+        <div class="deposit-and-withdraw">
+            <input type="number" id="input-value" placeholder="Amount">
+            <div class="button-container">
+                <button onclick="depositFun()" id="deposit-btn">Deposit</button>
+                <button onclick="withdrawFun()" id="withdraw-btn">Withdraw</button>
+            </div>
+        </div>
+
+        <!-- transaction history -->
+        <div class="transaction-history-container">
+            <h3>Transaction History</h3>
+            <div id="transaction-history"></div>
+        </div>
+    </div>
+
+    <script src="./script/script.js"></script>
+</body>
+
+</html>

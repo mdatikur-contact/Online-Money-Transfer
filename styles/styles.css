@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
+
+body {
+    font-family: "Nova Square", sans-serif;
+    background-color: #f6ffe5;
+    margin: 0 auto;
+    width: 320px;
+    height: 170px;
+    margin-top: 10px;
+}
+
+.card-bg-img img {
+    width: 320px;
+    height: 170px;
+    border-radius: 5%;
+}
+
+.card-details {
+    color: bisque;
+    position: absolute;
+    left: 40%;
+    top: 0;
+}
+
+.card-details-person {
+    margin-left: 20%;
+    width: 320px;
+}
+
+.deposit-and-withdraw {
+    margin-bottom: 10px;
+}
+
+#input-value {
+    width: 100%;
+    border: none;
+    background: white;
+    padding: 8px 0;
+    text-align: center;
+    border-radius: 5px;
+    margin: 10px 0;
+    font-style: bold;
+}
+
+.button-container {
+    margin-top: 10px;
+}
+
+#deposit-btn {
+    border: none;
+    background: #4caf50;
+    color: white;
+    width: 49%;
+    padding: 10px 5px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#withdraw-btn {
+    border: none;
+    background: hsl(13, 100%, 56%);
+    color: white;
+    width: 49%;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    
+}
+
+.transaction-history-container {
+    background: black;
+    margin: 0 auto;
+    width: 320px;
+    height: 300px;
+    border-radius: 5%;
+    overflow: hidden;
+}
+
+.transaction-history-container>h3 {
+    padding-top: 10px;
+    color: white;
+    margin-left: 25%;
+}
+
+.transaction-item {
+    padding: 5px;
+    margin: 5px;
+}
+
+.deposit {
+    color: lime;  
+}
+
+.withdraw {
+    color: rgb(255, 111, 0);  
+}
